@@ -32,3 +32,12 @@ export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Hom
 Link
 
 https://medium.com/@getwedo
+
+
+code -
+componentWillUpdate(nextProps, nextState){
+  console.log(difference(this.props, nextProps));  //difference - lodash
+  console.log(difference(this.state, nextState));
+}
+
+video -balsamiq.com
