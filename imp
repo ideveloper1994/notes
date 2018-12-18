@@ -2,3 +2,29 @@ Crash and Error Tracking
    - BugSnag for javascript
    - fabric
   
+Command:
+
+ssh-add -K ~/.ssh/id_rsa
+		
+xcrun simctl install booted path
+
+xcrun simctl launch booted <app identifier>
+
+cd /node_modules/react-native/third-party/glog-0.3.4
+./configure
+
+react-native bundle --entry-file index.ios.js --platform ios --dev false --bundle-output ios/main.jsbundle --assets-dest ios
+
+react-native run-ios --configuration Release
+
+react-native run-android --variant=release
+
+iOS app architecture:
+arm64
+armv7
+armv7s
+
+sdk path:
+
+export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH"
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/"
