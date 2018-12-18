@@ -29,6 +29,12 @@ sdk path:
 export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH"
 export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/"
 
+script in package.json
+like
+"json:server": "json-server --watch db.json",
+"dev": "nodemon server.js"
+command is : npm run dev
+
 Link
 
 https://medium.com/@getwedo
@@ -41,3 +47,4 @@ componentWillUpdate(nextProps, nextState){
 }
 
 daigram -balsamiq.com
+Json-server
