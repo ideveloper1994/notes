@@ -40,4 +40,4 @@ componentWillUpdate(nextProps, nextState){
   console.log(difference(this.state, nextState));
 }
 
-video -balsamiq.com
+daigram -balsamiq.com
