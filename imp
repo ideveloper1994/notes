@@ -19,6 +19,9 @@ react-native run-ios --configuration Release
 
 react-native run-android --variant=release
 
+unlink node_modules/react-native/third-party/glog-0.3.4/test-driver
+
+
 iOS app architecture:
 arm64
 armv7
