@@ -52,3 +52,11 @@ componentWillUpdate(nextProps, nextState){
 daigram -balsamiq.com
 Json-server
 https://github.com/StephenGrider/GraphQLCasts
+
+
+export ANDROID_HOME=/Users/usr/Library/Android/sdk
+
+export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH"
+
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/"
+
