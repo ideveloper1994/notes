@@ -3,7 +3,7 @@ Crash and Error Tracking
    - fabric
   
 Command:
-
+https://jetlicense.nss.im/
 ssh-add -K ~/.ssh/id_rsa
 		
 xcrun simctl install booted path
